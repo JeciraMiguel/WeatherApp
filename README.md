@@ -8,6 +8,9 @@ The Weather App is an Android application developed in Kotlin that allows users 
 - **Name** - Jecira Miguel
 - **Student number** - ST10450462
 
+### 🌐Github Repository link
+[Go to the My repository "WeatherApp"](https://github.com/JeciraMiguel/WeatherApp)
+
 ## Purpose and Explanation
 The purpose of the Weather App is to provide users with a tool to manage and view weekly weather conditions. Users can enter daily weather data, calculate the average temperature for the week, and view detailed weather information for each day.
 
