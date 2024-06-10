@@ -1,12 +1,15 @@
-## Author
-
-- Jecira Miguel - Developer
-- Student number - ST10450462
-
 # Weather App
 
 ## Description
 The Weather App is an Android application developed in Kotlin that allows users to manage and view weekly weather conditions. The app provides functionality to calculate the average temperature for the week and display detailed information about the weather for each day.
+
+## Author
+
+- **Name** - Jecira Miguel
+- **Student number** - ST10450462
+
+## Purpose and Explanation
+The purpose of the Weather App is to provide users with a tool to manage and view weekly weather conditions. Users can enter daily weather data, calculate the average temperature for the week, and view detailed weather information for each day.
 
 ## Features
 - **Splash Screen (MainActivity)**: Displays the app name, your name, student number, and a logo. Includes options to navigate to the main screen or exit the app.
@@ -23,3 +26,22 @@ The Weather App is an Android application developed in Kotlin that allows users 
 
 ## Error Handling
 The application handles invalid inputs and displays error messages using Toasts to provide user feedback.
+
+## Flowchart
+![Flowchart](path_to_flowchart_image)
+
+## Screenshots
+### Splash Screen
+![Splash Screen](https://raw.githubusercontent.com/JeciraMiguel/WeatherApp/main/app/SplashScreen.png)
+
+### Main Screen
+![Main Screen](https://raw.githubusercontent.com/JeciraMiguel/WeatherApp/main/app/HomeScreen.png)
+
+### Resulte Average
+![Resulte Average](https://raw.githubusercontent.com/JeciraMiguel/WeatherApp/main/app/ResulteAverage.png)
+
+### Detailed View Screen
+![Detailed View Screen](https://raw.githubusercontent.com/JeciraMiguel/WeatherApp/main/app/DetailsScreen.png)
+
+### Error Messages
+![Error Message](https://raw.githubusercontent.com/JeciraMiguel/WeatherApp/main/app/ErrorMessage.png)
