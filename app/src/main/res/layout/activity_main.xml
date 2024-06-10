@@ -2,25 +2,18 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/backgroundblack"
+    android:background="@drawable/pretobackground"
     >
-
-    <ImageView
-        android:id="@+id/logo"
-        android:layout_width="140dp"
-        android:layout_height="140dp"
-        android:src="@drawable/logo"
-        android:layout_marginTop="80dp"
-        android:layout_centerHorizontal="true"
-        android:layout_marginBottom="20dp"/>
 
     <TextView
         android:id="@+id/app_name"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Weather App"
+        android:layout_below="@+id/student_number"
         android:textSize="24sp"
-        android:layout_below="@id/logo"
+        android:textColor="@color/white"
+        android:layout_marginTop="20dp"
         android:layout_centerHorizontal="true"/>
 
     <TextView
@@ -29,19 +22,29 @@
         android:layout_height="wrap_content"
         android:text="Name: Jecira Maria Vandest Varela Miguel"
         android:textSize="18sp"
-        android:layout_below="@id/app_name"
+        android:textColor="@color/white"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="10dp"/>
+        android:layout_marginTop="140dp"/>
 
     <TextView
         android:id="@+id/student_number"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Student Number: ST10450462"
+        android:textColor="@color/white"
         android:textSize="18sp"
         android:layout_below="@id/student_name"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="10dp"/>
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:src="@drawable/mainlogo"
+        android:layout_marginTop="290dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp"/>
 
     <Button
         android:id="@+id/btn_start"
@@ -50,10 +53,10 @@
         android:text="Start"
         android:backgroundTint="@color/brown"
         android:textColor="@color/white"
-        android:layout_below="@id/student_name"
+        android:layout_below="@id/logo"
         android:paddingHorizontal="44dp"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="40dp"/>
+        android:layout_marginTop="20dp"/>
 
     <Button
         android:id="@+id/btn_exit"

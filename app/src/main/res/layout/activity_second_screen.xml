@@ -2,7 +2,114 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/pretobackground"
     android:padding="16dp">
 
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Home Screen"
+        android:textColor="@color/white"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="20dp"
+        android:textSize="28sp"/>
 
+    <EditText
+        android:id="@+id/input_date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Date"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:layout_below="@id/title"
+        android:inputType="date"/>
+
+    <EditText
+        android:id="@+id/input_min_temp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Min Temperature"
+        android:inputType="number"
+        android:textColorHint="@color/white"
+        android:layout_below="@id/input_date"
+        android:layout_marginTop="10dp"/>
+
+    <EditText
+        android:id="@+id/input_max_temp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Max Temperature"
+        android:inputType="number"
+        android:textColorHint="@color/white"
+        android:layout_below="@id/input_min_temp"
+        android:layout_marginTop="10dp"/>
+
+    <EditText
+        android:id="@+id/input_weather_condition"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Weather Condition"
+        android:textColorHint="@color/white"
+        android:layout_below="@id/input_max_temp"
+        android:layout_marginTop="10dp"/>
+
+    <Button
+        android:id="@+id/btn_add_data"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add Data"
+        android:backgroundTint="@color/blue"
+        android:textColor="@color/white"
+        android:paddingHorizontal="20dp"
+        android:layout_below="@id/input_weather_condition"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:id="@+id/average_temperature"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Average Temperature: "
+        android:textColor="@color/white"
+        android:layout_below="@id/btn_add_data"
+        android:layout_marginTop="20dp"
+        android:textSize="18sp"/>
+
+    <Button
+        android:id="@+id/btn_view_details"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="View Details"
+        android:backgroundTint="@color/brown"
+        android:textColor="@color/white"
+        android:paddingHorizontal="20dp"
+        android:layout_below="@id/average_temperature"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"/>
+
+    <Button
+        android:id="@+id/btn_clear_data"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Clear Data"
+        android:backgroundTint="@color/brown"
+        android:textColor="@color/white"
+        android:paddingHorizontal="20dp"
+        android:layout_below="@id/btn_view_details"
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true"/>
+
+    <Button
+        android:id="@+id/btn_exit_main"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Exit"
+        android:backgroundTint="@color/red"
+        android:textColor="@color/white"
+        android:paddingHorizontal="20dp"
+        android:layout_below="@id/btn_clear_data"
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true"/>
 </RelativeLayout>
