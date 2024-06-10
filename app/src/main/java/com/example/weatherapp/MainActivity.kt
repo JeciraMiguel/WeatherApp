@@ -11,17 +11,18 @@ import androidx.core.view.WindowInsetsCompat
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        enableEdgeToEdge()
         setContentView(R.layout.activity_main)
 
-        val mainscreenbutton: Button = findViewById(R.id.mainScreenButton)
-        val exitbutton: Button = findViewById(R.id.exitbutton)
+        val btnStart: Button = findViewById(R.id.btn_start)
+        val btnExit: Button = findViewById(R.id.btn_exit)
 
-        mainscreenbutton.setOnClickListener {
+        btnStart.setOnClickListener {
             val intent = Intent(this, SecondScreen::class.java)
             startActivity(intent)
+            finish()
         }
-        exitbutton.setOnClickListener {
+
+        btnExit.setOnClickListener {
             finish()
         }
     }
