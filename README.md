@@ -30,8 +30,8 @@ The purpose of the Weather App is to provide users with a tool to manage and vie
 ## Error Handling
 The application handles invalid inputs and displays error messages using Toasts to provide user feedback.
 
-## Flowchart
-![Flowchart](path_to_flowchart_image)
+## Pseudocode
+![Pseudocode](https://raw.githubusercontent.com/JeciraMiguel/WeatherApp/main/app/pseudocode.png)
 
 ## Screenshots
 ### Splash Screen
